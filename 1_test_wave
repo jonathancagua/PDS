@@ -1,0 +1,23 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+def grafica_seno(frecuencia,f_muestreo,desfase,muestras,amplitud):
+    n = np.arange(muestras)
+    sn = amplitud * np.sin((2 * np.pi * frecuencia * n / f_muestreo) + desfase)
+    return sn
+    
+    
+seno = grafica_seno(60,1200,0,100,5)
+plt.plot(seno)
+"""def seno_generador(spec: onda_data):
+    fx = lambda t: np.sin(w * t)
+frecuencia = 60
+frecuencia_sampleo = 1200
+desfase = 0
+muestras = 100
+amplitud = 5
+n = np.arange(muestras)
+sn = amplitud * np.sin((2 * np.pi * frecuencia * n / frecuencia_sampleo) + desfase)
+
+plt.plot(sn)
+plt.grid()"""
