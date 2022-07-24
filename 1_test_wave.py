@@ -57,7 +57,7 @@ seno = grafica_seno(frecuencia, frecuencia_sample, 0, 1000, 1)
 frecuencia = 0.51 * frecuencia_sample
 seno_2 = grafica_seno(frecuencia, frecuencia_sample, 0, 1000, 1)
 
-plt.title('EJEMPLO 2.1')
+plt.title('EJEMPLO 2.2')
 plt.plot(seno,color='green', label='seno')
 plt.plot(seno_2,color='red', label='seno 2')
 plt.grid()
