@@ -12,7 +12,7 @@ Dado el archivo clases/tp2/resolucion_espectral.txt  que contiene 100 valores re
 ![plot](conpadding.png)
 
 ### 5) Indique si ahora los resultados difieren del punto 3 y argumente su respuesta. 
-Ahora se pueden distinguir dos frecuencia de amplitud que se pueden apreciar en el espectro que es la de 50hz y 53hz
+Ahora se pueden distinguir dos frecuencia de amplitud que se pueden apreciar en el espectro que es la de 50hz y 53hz. Todo esto gracias gracias al agregar cero mejora la resolucion del espectro.
 
 
 
