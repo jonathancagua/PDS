@@ -5,8 +5,8 @@ En el archivo clases/tp2/ﬀt_hjs.npy se almacenaron los valores de un espectro 
 SE PUEDE VER UN HOMERO
 ![plot](HOMERO.png)
 ### 2) Hasta que punto podría limitar el ancho de banda del espectro dado en el archivo y que aun se logre interpretar la señal? . 
-Se puede limitar una banda hasta 15hz, con un filtro pasa banda
-![plot](figure_2.png)
+Se puede limitar una banda hasta 15hz, con un filtro pasa banda.
+![plot](Figure_2.png)
 
 
 
