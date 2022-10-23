@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Oct  3 20:36:29 2022
+# Process ID: 2364
+# Current directory: H:/.shortcut-targets-by-id/1De7HpkMGflw3UwGAOUt9a3-PNFzbE-Ry/material_alumnos_2022/clase_1/vhdl_example/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5236 H:\.shortcut-targets-by-id\1De7HpkMGflw3UwGAOUt9a3-PNFzbE-Ry\material_alumnos_2022\clase_1\vhdl_example\project_1\project_1.xpr
+# Log file: H:/.shortcut-targets-by-id/1De7HpkMGflw3UwGAOUt9a3-PNFzbE-Ry/material_alumnos_2022/clase_1/vhdl_example/project_1/vivado.log
+# Journal file: H:/.shortcut-targets-by-id/1De7HpkMGflw3UwGAOUt9a3-PNFzbE-Ry/material_alumnos_2022/clase_1/vhdl_example/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/.shortcut-targets-by-id/1De7HpkMGflw3UwGAOUt9a3-PNFzbE-Ry/material_alumnos_2022/clase_1/vhdl_example/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+open_bd_design {H:/.shortcut-targets-by-id/1De7HpkMGflw3UwGAOUt9a3-PNFzbE-Ry/material_alumnos_2022/clase_1/vhdl_example/project_1/project_1.srcs/sources_1/bd/design_1/design_1.bd}

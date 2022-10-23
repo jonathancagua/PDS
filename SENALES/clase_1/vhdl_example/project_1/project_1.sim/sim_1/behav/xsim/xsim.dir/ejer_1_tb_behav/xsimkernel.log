@@ -1,0 +1,7 @@
+Running: xsim.dir/ejer_1_tb_behav/xsimk -simmode gui -wdb ejer_1_tb_behav.wdb -simrunnum 0 -socket 39419
+Design successfully loaded
+Design Loading Memory Usage: 33292 KB (Peak: 33876 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 123228 KB (Peak: 172560 KB)
+Simulation CPU Usage: 290 ms

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/glavigna/workspace/pds_2022/clase_1/vhdl_example/ejer_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ejer_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/glavigna/workspace/pds_2022/clase_1/vhdl_example/ejer_1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ejer_1_tb'

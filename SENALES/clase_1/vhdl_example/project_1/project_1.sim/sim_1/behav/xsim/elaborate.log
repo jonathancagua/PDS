@@ -1,0 +1,17 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: /opt/xilinx/Vivado/2020.2/bin/unwrapped/lnx64.o/xelab -wto fbb8d611c3a645a8834e538dff935d79 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot ejer_1_tb_behav xil_defaultlib.ejer_1_tb -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling architecture rtl of entity xil_defaultlib.ejer_1 [ejer_1_default]
+Compiling architecture testbench of entity xil_defaultlib.ejer_1_tb
+Built simulation snapshot ejer_1_tb_behav

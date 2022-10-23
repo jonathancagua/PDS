@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Aug 22 18:57:00 2022
+# Process ID: 51958
+# Current directory: /home/glavigna/workspace/pds_2022/clase_1/vhdl_example
+# Command line: vivado
+# Log file: /home/glavigna/workspace/pds_2022/clase_1/vhdl_example/vivado.log
+# Journal file: /home/glavigna/workspace/pds_2022/clase_1/vhdl_example/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project project_1 /home/glavigna/workspace/pds_2022/clase_1/vhdl_example/project_1 -part xc7z010clg400-1
+set_property board_part digilentinc.com:arty-z7-10:part0:1.1 [current_project]
+add_files -norecurse /home/glavigna/workspace/pds_2022/clase_1/vhdl_example/ejer_1.vhd
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/glavigna/workspace/pds_2022/clase_1/vhdl_example/ejer_1_tb.vhd
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ejer_1_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source ejer_1_tb.tcl
+run 1400 us
+run 1400 us
+run 1400 us
+create_bd_design "design_1"
+update_compile_order -fileset sources_1
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:xfft:9.1 xfft_0
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:fir_compiler:7.2 fir_compiler_0
+endgroup
+set_property location {1 147 -105} [get_bd_cells fir_compiler_0]
+set_property location {2 545 -91} [get_bd_cells xfft_0]
+close_sim
+close_project
+create_project project_2 /home/glavigna/workspace/pds_2022/clase_1/vhdl_example/project_2 -part xc7z010clg400-1
+set_property board_part digilentinc.com:arty-z7-10:part0:1.1 [current_project]
+add_files -norecurse /home/glavigna/workspace/pds_2022/clase_1/vhdl_example/ejer_1.vhd
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /home/glavigna/workspace/pds_2022/clase_1/vhdl_example/ejer_1_tb.vhd
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ejer_1_tb [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source ejer_1_tb.tcl
+run 1400 us
+run 1400 us
+file mkdir /home/glavigna/workspace/pds_2022/clase_1/vhdl_example/project_2/project_2.srcs/constrs_1
+close_sim
